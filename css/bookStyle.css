@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    background: url('https://img.freepik.com/free-vector/book-table-library-room-interior-vector-background-wooden-desk-view-literature-inside-college-school-librarian-archive-ladder-public-bookstore-vintage-university-education-hall_107791-22964.jpg?t=st=1739457359~exp=1739460959~hmac=d1c286c73963beea63eac5b8f037c30893f1805ba2478a715dfd0f8acf6fe19c&w=1380') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    overflow-x: hidden;
+}
+
+/* Card and Form Styles */
+.card {
+    border: none;
+    border-radius: 15px;
+}
+
+.card h4 {
+    color: #343a40;
+}
+
+.card input {
+    border-radius: 10px;
+}
+
+.btn {
+    border-radius: 20px;
+    transition: transform 0.2s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Table Styles */
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #e9ecef;
+    transition: background-color 0.3s ease;
+}
+
+/* Animation Effects */
+.animate-form {
+    animation: fadeInUp 1s ease;
+}
+
+.animate-table {
+    animation: fadeIn 1.5s ease;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.mar{
+    margin-top: 100px;
+}
